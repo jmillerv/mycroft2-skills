@@ -3,6 +3,11 @@
 All the skills in the master branch of this library have
 been ported and tested on a Mycroft II. 
 
+## Predecessor 
+It looks like a predecessor community attempted to get off the ground: https://community.mycroft.ai/t/united-skill-writers-draft/5490/9
+There's a pretty much inactive [mattermost](https://mycroft.cloud.mattermost.com/community/channels/united_skill_writers) here. 
+
+
 ## Usage 
 
 Prerequisites: 
