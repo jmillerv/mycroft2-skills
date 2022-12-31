@@ -56,3 +56,6 @@ Prerequisites:
 
 ## Troubleshooting 
 The most useful log so far has been `journalctl -u dinkum-skills.service -f`
+
+## Development Recommendation
+To avoid problems when restarting, I've found that setting mycroft to a reserved IP address on my router provides stability between reboots. At the very least it'll prevent you from trying to SSH into an IP address that isn't assigned after a lease expiration. 
