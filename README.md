@@ -19,21 +19,22 @@ Prerequisites:
 
 ### Steps 
 
-*cd into the skills directory*
+*cd into /opt*
 
-`cd /opt/mycroft-dinkum/skills` 
-
-*create a directory for the skill*  
-
-`mkdir bark.mark2` 
+`cd /opt`
 
 *clone this repo*  
 
 `git clone https://github.com/jmillerv/converted-skills` 
 
-*copy the skill you want into the folder you created*  
+*Change directory to the dinkum skills director*
 
-`cp -r converted-skill/* bark.mark2/` 
+`cd /opt/mycroft-dinkum/skills`
+
+
+*create a symbolic link to the skill you want*
+
+`ln -s /opt/converted-skills/bark.mark2`
 
 *Add skill to skills.json*  
 
