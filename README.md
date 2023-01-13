@@ -34,7 +34,7 @@ Prerequisites:
 
 *create a symbolic link to the skill you want*
 
-`ln -s /opt/converted-skills/bark.mark2`
+`ln -s /opt/mycroft2-skills/bark.mark2`
 
 *Add skill to skills.json*  
 
