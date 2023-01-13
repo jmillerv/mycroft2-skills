@@ -25,7 +25,7 @@ Prerequisites:
 
 *clone this repo*  
 
-`git clone https://github.com/jmillerv/converted-skills` 
+`git clone https://github.com/jmillerv/mycroft2-skills` 
 
 *Change directory to the dinkum skills directory*
 
