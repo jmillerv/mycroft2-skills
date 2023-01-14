@@ -1,8 +1,13 @@
+from mycroft.skills import (
+    MycroftSkill,
+    intent_handler
+)
+
 class Bark(MycroftSkill):
     def __init__(self, skill_id: str):
         super().__init__(skill_id=skill_id, name="BarkSkill")
 
-    @intent_file_handler('bark.intent')
+    @intent_handler('bark.intent')
     def handle_bark(self, message):
         dialog="bark"
         gui = None
